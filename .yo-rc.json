@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Chris Manson",
+      "authorEmail": "chris.manson@simplabs.com",
+      "authorUrl": ""
+    }
+  }
+}

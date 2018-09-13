@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "description": "A boilerplate that can be used to jumpstart your showdown extension development",
+  "keywords": [
+    "markdown",
+    "md",
+    "showdown",
+    "extension"
+  ],
+  "license": "MIT",
+  "author": "Estevão Soares dos Santos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showdownjs/showdown-extension-boilerplate.git",
+    "web": "https://github.com/showdownjs/showdown-extension-boilerplate"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "showdown": "^1.8.6"
+  },
+  "scripts": {
+    "test": "npm run build && mocha test",
+    "build": "babel src -d lib"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "generator-showdown-extension",
+  "version": "0.0.0",
+  "description": "A generator that can be used to jumpstart your showdown extension development",
+  "homepage": "https://github.com/stonecircle/generator-showdown-extension",
+  "author": {
+    "name": "Chris Manson",
+    "email": "chris.manson@simplabs.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "markdown",
+    "md",
+    "showdown",
+    "showdown-extension",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "lodash": "^4.17.11",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha"
+  },
+  "repository": "stonecircle/generator-showdown-extension",
+  "license": "MIT"
+}
